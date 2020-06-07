@@ -1,8 +1,10 @@
-package me.bigring.springbootjpa.account;
+package me.bigring.springboot.account;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
+import org.springframework.data.redis.core.RedisHash;
 
 import lombok.Getter;
 import lombok.Setter;

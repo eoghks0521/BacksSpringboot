@@ -1,4 +1,4 @@
-package me.bigring.springbootjpa.account;
+package me.bigring.springboot.account;
 
 import java.util.Optional;
 
