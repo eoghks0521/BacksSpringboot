@@ -9,7 +9,6 @@ import org.springframework.boot.web.reactive.function.client.WebClientCustomizer
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.reactive.function.client.WebClient;
 
 import me.bigring.springboot.mongo.Maccount;
 import me.bigring.springboot.mongo.MaccountRepository;

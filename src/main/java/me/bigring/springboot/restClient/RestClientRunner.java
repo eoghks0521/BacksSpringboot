@@ -1,5 +1,6 @@
 package me.bigring.springboot.restClient;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -12,10 +13,10 @@ import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
 @Component
-public class RestRunner implements ApplicationRunner {
+public class RestClientRunner implements ApplicationRunner {
 
-	@Autowired
-	RestTemplateBuilder restTemplateBuilder;
+	// @Autowired
+	// RestTemplateBuilder restTemplateBuilder;
 
 	@Autowired
 	WebClient.Builder builder;
@@ -35,9 +36,9 @@ public class RestRunner implements ApplicationRunner {
 		// stopWatch.stop();
 		//
 		// System.out.println(stopWatch.prettyPrint());
-
+		//
 		WebClient webClient = builder
-			.baseUrl("http://localhost:8080/api")
+			//.baseUrl("http://localhost:8080/api")
 			.build();
 
 
