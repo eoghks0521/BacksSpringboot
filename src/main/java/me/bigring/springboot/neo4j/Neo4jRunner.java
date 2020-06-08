@@ -8,7 +8,7 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Neo4jRunner implements ApplicationRunner {
 
 	@Autowired
